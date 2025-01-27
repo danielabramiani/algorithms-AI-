@@ -1,0 +1,9 @@
+Function FindMax(A)
+    Set Max = A[0]
+    For i from 1 to length of A
+        If A[i] > Max
+            Set Max = A[i]
+        End If
+    End For
+    Return Max
+End Function
